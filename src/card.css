@@ -1,0 +1,15 @@
+.skill_card  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill_card img {
+  border-bottom: 2px solid gold;
+  max-height: 160px;
+}
+.skill_card a {
+  text-decoration: none;
+  color: white;
+  background: red;
+}

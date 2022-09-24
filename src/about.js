@@ -1,0 +1,33 @@
+import react from 'react'
+import Image from './image.js'
+import img from './bubble-gum-support.gif'
+import Card from './card.js'
+import './about.css'
+
+export default class about extends react.Component{
+  
+  render(){
+    return (
+      <div className="personal-data">
+          <p id="animated-name">
+             <span className="neon-orange">Shashank Kestwal</span>
+             <span className="neon-blue">Full Stack Developer</span>
+          </p>
+          <div className="social_icons_container"> 
+          <a className="social_link" href="https://www.stackoverflow.com" target="_blank"><i className="fa-brands fa-square-instagram"> </i></a>
+          <a className="social_link" href=""><i className="fa-brands fa-facebook"></i></a>
+          <a className="social_link" href=""><i className="fa-brands fa-linkedin"></i></a>
+          <a className="social_link" href=""><i className="fa-brands fa-twitter"></i></a>
+          <a className="social_link" href=""><i className="fa-brands fa-whatsapp"></i></a>
+          </div>
+          <div id="grid_data"> 
+            <p><span>Name </span> Shashank Kestwal</p>
+            <p><span>Age </span> 20</p>
+            <p><span>Address </span> 1200/C Govindpuri, Delhi India</p>
+            <button id="cv_button"> Download CV</button>
+        </div>
+        
+      </div>
+      );
+  }
+} 

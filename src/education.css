@@ -1,0 +1,54 @@
+.education {
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-direction: row;
+} 
+
+.education span {
+  font-weight: 600;
+  font-size: 125%;
+}
+
+#college_image img{
+  padding: 1rem 5rem ;
+  height: 250px;
+}
+#education_time  {
+  padding: 3rem 0;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+}
+
+.institute_name {
+  padding-top: 2rem;
+}
+
+#college_det {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#college_det p {
+  padding: 20px 0 0 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#marks {
+  width: 80%;
+}
+
+@media only screen and (max-width: 925px) {
+  .education {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+  #education_time {
+    writing-mode: horizontal-tb;
+    padding: 0;
+  }
+}
