@@ -23,7 +23,8 @@ export default class about extends react.Component{
           <div id="grid_data"> 
             <p><span>Name </span> Shashank Kestwal</p>
             <p><span>Age </span> 20</p>
-            <p><span>Address </span> 1200/C Govindpuri, Delhi India</p>
+            <p><span>Address (Temperory) </span> 1200/C Govindpuri, Delhi India</p>
+            <p><span>Address (Permanent) </span> Vishal nagar colony, Kashipur, Uttarakhand </p>
             <button id="cv_button"> Download CV</button>
         </div>
         

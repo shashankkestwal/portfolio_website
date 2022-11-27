@@ -1,12 +1,10 @@
 import react from 'react'
 import './education.css'
-import data from './education_obj.js'
 import Image from './image.js'
 import img from './bubble-gum-support.gif'
 
 export default class CollegeEducation extends react.Component {
   render() {
-    console.log(data)
     return (
       <div className='education'>
         <div id="college_image"><Image source={img}/></div>
