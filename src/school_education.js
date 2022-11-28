@@ -11,6 +11,8 @@ export default class SchoolEducation extends react.Component {
         <h3 id="education_time"> 2013 2019</h3>
         <div id="college_det"> 
           <h2 class="institute_name"> Shivalik Holy Mount Academy</h2>
+          <h2>(Schooling from 6th std.)</h2>
+          <h5>CBSE</h5>
           <p> Made some amazing memories. School Helper me develop soft skills inme as 
               well as helped me achive academic excellaence in my board examination. One thing that I
               regret is that sports activities were not much supported in School but everythings that could b good was best.  

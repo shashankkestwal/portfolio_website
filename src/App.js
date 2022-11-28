@@ -9,6 +9,7 @@ import SchoolEducation from './school_education.js'
 import html_icon from './assets/html-5.png'
 import img from './bubble-gum-support.gif'
 import Contact from './Contact.js'
+import Footer from './Footer.js'
 
 // import { default as logo } from '../logo.svg';
 // import {default as Cloudy_background } from './Cloudy.svg'
@@ -30,7 +31,7 @@ function App() {
           <Skills/>
           <Contact/>
           <div>
-            <h1>footer</h1>
+            <h1><Footer/></h1>
           </div>
         </div>
 

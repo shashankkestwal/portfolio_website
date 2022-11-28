@@ -16,12 +16,13 @@
 }
 
 #grid_data span {
-  display: inline-block;
   padding: 5px 10px 5px 10px;
 }
 #grid_data p {
+  border-bottom: 0.2px solid white;
+  padding-bottom: 5px;
+  text-align: center;
   font-size: 1.25rem;
-  border: 10px solid linear-gradient(#fc4a1a, #f7b733);
 }
 
 .social_icons_container {
@@ -31,7 +32,7 @@
   justify-content: space-evenly;
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 920px) {
   .social_icons_container {
     width: 80%;
   }
