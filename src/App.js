@@ -8,6 +8,8 @@ import CollegeEducation from './college_education.js'
 import SchoolEducation from './school_education.js'
 import html_icon from './assets/html-5.png'
 import img from './bubble-gum-support.gif'
+import Contact from './Contact.js'
+import Footer from './Footer.js'
 
 // import { default as logo } from '../logo.svg';
 // import {default as Cloudy_background } from './Cloudy.svg'
@@ -16,26 +18,23 @@ function App() {
   return (
         
     <div className="App">
-      <Navbar/>
-        <div className="container-app"> 
-          <Image source={img} />
-          <About info= {personal_data}/>
-        </div>
-          <div className="s-container">
-            <p className="heading neon-orange"><ul>Education</ul></p>
-           <CollegeEducation/>
-           <SchoolEducation/>
+        <Navbar/>
+        <div className="main-container">
+          <div className="container-app"> 
+            <Image source={img} />
+            <About info= {personal_data}/>
           </div>
-          <div className="skills-container"> 
-            <p className="heading neon-orange"><ul>skills</ul></p>
-            <Skills/>
-          </div>
-          <div className="contact-container">
-            contact form heres
-          </div>
+          <p className="heading neon-orange"><ul>Education</ul></p>
+          <CollegeEducation/>
+          <SchoolEducation/>
+          <p className="heading neon-orange"><ul>skills</ul></p>
+          <Skills/>
+          <Contact/>
           <div>
-            <h1>footer</h1>
+            <h1><Footer/></h1>
           </div>
+        </div>
+
       </div>
     
   );

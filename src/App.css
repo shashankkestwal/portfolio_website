@@ -1,14 +1,14 @@
-.App {/*
-  font-family: 'Roboto';*/
-  max-width: 1240px;
-  margin-left: auto;
-  margin-right: auto;
-  background: #27323E;
+.App {
   color: white;
   font-family: 'San Francisco', Helvetica, Arial, san-serif;
 }
+.main-container { 
+  background: #27323E;  
+  max-width: 1300px;
+  margin: 0 auto;
+}
 
-.container-app {  
+.container-app {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,9 +48,5 @@ button {
     margin: 2% 8% 0 9%;
   }
 }
-/*
-.check {
-  background-color: red;
-  border-radius: 5px; 
-}*/
+
 

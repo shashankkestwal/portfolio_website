@@ -1,6 +1,6 @@
 .personal-data {
-  padding-top: 2rem;
-  width: 100%;
+  padding-top: 1rem;
+  width: 90%;
   font-size: 1.2rem;
 }
 #animated-name {
@@ -16,13 +16,13 @@
 }
 
 #grid_data span {
-  display: inline-block;
-  width: 90px;
   padding: 5px 10px 5px 10px;
 }
 #grid_data p {
+  border-bottom: 0.2px solid white;
+  padding-bottom: 5px;
+  text-align: center;
   font-size: 1.25rem;
-  border: 10px solid linear-gradient(#fc4a1a, #f7b733);
 }
 
 .social_icons_container {
@@ -31,22 +31,28 @@
   display: flex;
   justify-content: space-evenly;
 }
-@media only screen and (max-width: 650px) {
+
+@media only screen and (max-width: 920px) {
+  .social_icons_container {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .social_icons_container {
+    width: 100%;
+  }
+  #grid_data {
+    flex-direction: column;
+  }
   .personal-data {
     padding-top: 1rem;
     margin: 0 auto;
-    width: 100%;
   }
   #animated-name {
     text-align: center;
   }
-  
 }
-@media only screen and (max-width: 1000px) {
-  .social_icons_container {
-    width: 100%;
-  }
-} 
 
 #cv_button {
   margin-top: 1rem;
