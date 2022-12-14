@@ -6,10 +6,10 @@
 }
 .skill_card img {
   border-bottom: 2px solid gold;
-  max-height: 160px;
+  max-width: 210px;
+  max-height: 280px;
 }
 .skill_card a {
   text-decoration: none;
   color: white;
-  background: red;
 }
