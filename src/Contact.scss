@@ -50,10 +50,8 @@ textarea, input {
   border-bottom: 2px solid white;
   transition: all 0.1s linear;
 }
-
-textarea:hover, 
-textarea:focus,
-input:hover, 
+ 
+textarea:focus, 
 input:focus {
   top: -2px;
   border-bottom: 3px solid;
@@ -104,4 +102,9 @@ input:focus {
 
 .l:nth-child(n){
   padding-top: 15px;
+}
+
+.add_error {
+  background: url(assets/icons8-unavailable-30.png) no-repeat scroll 7px 7px;
+  padding-left:40px;
 }

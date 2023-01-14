@@ -14,11 +14,10 @@ export default class about extends react.Component{
              <span className="neon-blue">Full Stack Developer</span>
           </p>
           <div className="social_icons_container"> 
-            <a className="social_link" href="https://www.stackoverflow.com" target="_blank"><i className="fa-brands fa-square-instagram"> </i></a>
-            <a className="social_link" href=""><i className="fa-brands fa-facebook"></i></a>
-            <a className="social_link" href=""><i className="fa-brands fa-linkedin"></i></a>
-            <a className="social_link" href=""><i className="fa-brands fa-twitter"></i></a>
-            <a className="social_link" href=""><i className="fa-brands fa-whatsapp"></i></a>
+            <a className="social_link" target="_blank" href="https://www.instagram.com/shashank_kestwal/" target="_blank"><i className="fa-brands fa-square-instagram"> </i></a>
+            <a className="social_link" target="_blank" href="https://www.linkedin.com/in/shashank-kestwal/"><i className="fa-brands fa-linkedin"></i></a>
+            <a className="social_link" target="_blank" href=""><i className="fa-brands fa-twitter"></i></a>
+            <a className="social_link" target="_blank" href="https://wa.link/qxpdnp"><i className="fa-brands fa-whatsapp"></i></a>
           </div>
           <div id="grid_data"> 
             <p><span>Name </span> Shashank Kestwal</p>
