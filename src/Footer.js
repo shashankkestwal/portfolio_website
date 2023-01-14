@@ -1,11 +1,30 @@
-import React from "react";
-import './Footer.css'
-class Footer extends React.Component {
-    render() {
-        return (
-            <div className="footer">I am a footer</div>
-        );
-    }
+import "./Footer.css"
+const footer = (props) => {
+  return(
+          <div id="footer">
+            <div className="footer-div">
+              Made with ❤️ by Shashank <br/>
+              <span id="s_text">from the mountains of Himalayas.</span>
+              </div>
+            <div className="footer-div">
+              <ul>
+                <li>PHONE NUMBER =</li>
+                <li>EMAIL =</li>
+              </ul>
+            </div>
+            <div className="footer-div">
+              <ul>
+                <li>
+                  +91 8791 779 451
+                </li>
+                <li>
+                    shashankkestwal777@gmail.com   
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        )
 }
 
-export default Footer
+export default footer

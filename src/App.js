@@ -16,28 +16,29 @@ import Footer from './Footer.js'
 
 function App() {
   return (
-        
-    <div className="App">
-        <Navbar/>
-        <div className="main-container">
-          <div className="container-app"> 
-            <Image source={img} />
-            <About info= {personal_data}/>
-          </div>
-          <p className="heading neon-orange"><ul>Education</ul></p>
-          <CollegeEducation/>
-          <SchoolEducation/>
-          <p className="heading neon-orange"><ul>skills</ul></p>
-          <Skills/>
-          <Contact/>
-          <div>
-            <h1><Footer/></h1>
-          </div>
-        </div>
-
-      </div>
+       
+     <div className="App">
+         <Navbar/>
+         <div className="main-container">
+           <div className="container-app"> 
+             <Image source={img} />
+             <About info= {personal_data}/>
+           </div>
+           <p className="heading neon-orange"><ul>Education</ul></p>
+           <CollegeEducation/>
+           <SchoolEducation/>
+           <p className="heading neon-orange"><ul>skills</ul></p>
+           <Skills/>
+           <Contact/>
+         <div>
+           <h1><Footer/></h1>
+         </div>
+           
+       </div>
+     </div>
     
   );
 }
 
 export default App;
+
