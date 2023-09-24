@@ -1,12 +1,4 @@
-$primary: #11998e;
-$secondary: #38ef7d;
-$white: #fff;
-$gray: #9b9b9b;
-
 .contact-container {
-  margin-top: 25px;
-  padding-top: 25px;
-  border-top: 2px solid black;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -25,15 +17,14 @@ $gray: #9b9b9b;
 }
 img {
   max-width: 360px;
-  min-width: auto;
   border-radius: 20%;
-  padding: 20px 0 0 0;
 }
+
 textarea {
   resize: none;
-  height: 80px;
-  
+  height: 4rem;  
 }
+
 ::placeholder {
   color: white;
 }
@@ -107,4 +98,8 @@ input:focus {
 .add_error {
   background: url(assets/icons8-unavailable-30.png) no-repeat scroll 7px 7px;
   padding-left:40px;
+}
+
+#thanks {
+  font_size: 2.5rem
 }

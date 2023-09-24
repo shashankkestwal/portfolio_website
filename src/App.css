@@ -4,17 +4,19 @@
 }
 .main-container { 
   background: #27323E;  
-  max-width: 1300px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
 .container-app {
+  margin: 0 10%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   flex-direction: row;
+  padding: 50px  0;
 }
 .heading {
+  font-size: 2.2rem;
   text-align: center;
   padding-top: 2rem;
 }
@@ -32,8 +34,8 @@ button {
 .container-app  img {
   margin: 0 1rem;
   width: 50%;
-  height: 400px;
-  border-radius: 50%;
+  height: 350px;
+  border-radius: 12%;
   box-shadow: rgba(17, 20, 55, 0.3) 0px 30px 50px 5px;
   margin-right: 30px;
 }
@@ -41,11 +43,14 @@ button {
 
 @media only screen and (max-width: 650px) {
   .container-app {
+    align-items: center;
+    text-align: center;
     flex-direction: column;
   }
   .container-app  img {
     width: 80%;
-    margin: 2% 8% 0 9%;
+    border-radius: 20%;
+    margin: 5% 10% 0 15%;
   }
 }
 

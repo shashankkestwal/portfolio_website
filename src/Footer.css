@@ -1,51 +1,16 @@
 #footer {
-    display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Poppins', sans-serif;
-  color: #FFFFFF;
   margin-top: 8rem;
   padding: 30px 0 ;
-  background: #373F42;
-  justify-content: space-evenly;
-}
-
-#logo {
-  padding: 0 3px;
+  font-size: 20px;
   background: #373F42;
 }
 
-.footer-div {
-  justify-content: flex-start;
-  align-items: start;
-  min-width: 150px;
-  max-width: 250px;
-  font-size: 16px;
-}
 
-#footer ul {
-  cursor: pointer;
-  padding: 0;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 18px;
-  list-style-type: none;
-}
 
-#footer li {
-  padding: 4px 0;
-}
-
-#s_text {
-  font-size: 10px;
-}
-
-#copyright {
-  font-size: 12px;
-}
-.footer_icon {
-  position: relative;
-  top: 4px;
-  left: -5px;
-}
 
 @media screen and (max-width: 720px) {
   #footer {

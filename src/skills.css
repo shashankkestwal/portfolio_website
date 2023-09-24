@@ -10,7 +10,8 @@
   flex-direction: row;
 }*/
 .skill_cards_container {
-  width: 55%;
+  padding-bottom: 3rem;
+  width: 60%;
   margin: 0 auto;
 }
 

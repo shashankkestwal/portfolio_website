@@ -12,7 +12,7 @@ export default class skills extends react.Component {
           <Carousel autoPlay={true}
                   emulateTouch={true}
                   infiniteLoop={true}
-                  interval={1800}
+                  interval={2500}
                   stopOnHover={true}
                   showThumbs={false}
                   showStatus={false}

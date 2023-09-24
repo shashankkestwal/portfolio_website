@@ -2,22 +2,25 @@ import react from 'react'
 import './education.css'
 import Image from './image.js'
 import img from './bubble-gum-support.gif'
+import { useParallax } from 'react-scroll-parallax';
 
-export default class CollegeEducation extends react.Component {
-  render() {
+
+
+const CollegeEducation = () =>  {
+  const mage = useParallax({
+    scale: [0.7, 1, 'easeInQuad']
+  });
+ 
     return (
-      <div className='education'>
-        <div id="college_image"><Image source={img}/></div>
-        <h3 id="education_time"> 2020  2023</h3>
-        <div id="college_det"> 
-          <h2 class="institute_name"> Acharya Narendra Dev College, University of Delhi</h2>
-          <h3>(Undergraduation)</h3>
-          <p> Persuing Undergraduate degree in the field of computer science from University of Delhi.
-              Learnt a lot of things about the feild form the professors and peers.  
-          </p>
+      <div ref={mage.ref} className='education'>
+        <div className="details"> 
+          <h2 className="institute_name" >
+            Acharya Narendra Dev College, University of Delhi <br/>
+            (Undergraduation)
+          </h2> 
           <div id="marks"> 
             <p> 
-              <span> Bachelors of Computer Science </span> 8.71 CGPA(till 4th sem)
+              <span> Bachelors of Computer Science </span> 8.33 CGPA
             </p> 
             <p> 
               <span> Course Work </span>
@@ -27,7 +30,10 @@ export default class CollegeEducation extends react.Component {
             </p>
           </div>
         </div>
+        <h3 className="education_time"> 2020 | 2023</h3>
+        <div className="institute_image"><Image source={img}/></div>
       </div>
     )
-  };
 }
+
+export default CollegeEducation
